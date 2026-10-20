@@ -1,0 +1,22 @@
+# Data (Yelp Open Dataset is not redistributable)
+yelp_data/
+photos/
+*.json
+!**/package.json
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
